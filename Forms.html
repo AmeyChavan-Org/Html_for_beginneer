@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Forms</title>
+</head>
+<body>
+					<h2>THIS is FORM TuTorial</h2>
+	<form action="database.php">
+		
+				Action is the end point ..jithe from madhla data submit hoto ...it can be anything like php sql wagara
+		<br>
+		Name of Person<input type="text" placeholder="THIS IS INPUT TAG">
+		<br>
+		input is the tag from where user inputs are taken 
+		<ol>
+			<li>
+				it can be Checkbox
+				<strong>checkbox</strong><input type="Checkbox" name="date">
+			</li>
+			<li>it can be panel</li>
+			<li>it can be list</li>
+			<li>
+				it can be radio button
+				radio button1<input type="radio" name="sex">
+				radio button2<input type="radio" name="sex">
+
+			</li>
+		</ol>
+		<br>
+		Divsion tag
+		<em>It create a division in the webpage Example</em>
+		<br>
+		<Strong>WITH DIVISION TAG:- div</Strong><br>
+		<div>
+			Name of Person<input type="text" placeholder="THIS IS INPUT TAG">
+		</div>
+		<div>
+			id of person<input type="text" placeholder="THIS IS INPUT TAG">
+		</div>
+		<Strong> WITHOUT division TAG</Strong><br>
+			Name of Person<input type="text" placeholder="THIS IS INPUT TAG">
+			id of Person<input type="text" placeholder="THIS IS INPUT TAG">
+			<br>NOTE:-
+				<br>
+				Input tag ha inline element ahe (deal with a line)<br>
+				div Tag is block element (purna 1 block of webpage gheta seperate karun ,mg tyt  kahi attribute takla tr ty madhech rahata).
+				<br><strong>name Tag</Strong>
+			Name of Person<input type="text" placeholder="THIS IS INPUT TAG" name="person">
+			<br>Name of Person(input type="text" placeholder="THIS IS INPUT TAG" name="person")
+			<br>name ni backend la samajta ki hai kay ahe , ithe name="person" ahe so yela person mhanun consider karel (name of person mhanun nhi).
+			<br>
+			<br>
+				<input type="submit" value="Value=submit">
+
+			<br>
+			<br>
+		<strong>	How to add date</strong>
+			<br>
+			<div>
+				Date:<input type="date" name="date">
+			</div>
+			<strong>	How to add number</strong>
+								<div>
+										balance<input type="number" name="date">
+											</div>
+				<div><strong>to reset	all</strong>
+					<input type="reset" value="Reset">
+				</div>
+				------------------------------------------------------------------------------------------<br>
+				Write about yourself<br>
+				<textarea name="text" cols="10" rows="10" >
+				</textarea>
+				<br>
+				-------------------------------------------------------------------------------------<br>
+				<div><label for="name" >Name of Person</lable>
+					Name of Person<input type="text" placeholder="THIS IS INPUT TAG" name="myname" id="name">
+					<br>
+					in label for="" and in input tag id="" should be same 
+				</div>
+				<div>
+					<strong>For dropdown we use Select tag</strong>
+					<label for="car">Car</label>
+					<select name="mycar" id="car">
+						<option>tata</option>
+						<option selected>audi</option>
+						<!-- Selected to keep by-default option -->
+						<option>BMW</option>
+						
+				</div>
+				
+	</from>
+
+</body>
+</html>
